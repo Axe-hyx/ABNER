@@ -28,6 +28,7 @@ uname -v = #33~16.04.1-Ubuntu SMP Mon Jan 15 21:31:06 UTC 2018
 /bin/universe          = unknown
 
 PATH: /home/woof/android-build/bin
+PATH: /home/woof/Android/Sdk/platform-tools
 PATH: /home/woof/bin
 PATH: /home/woof/.local/bin
 PATH: /usr/local/sbin

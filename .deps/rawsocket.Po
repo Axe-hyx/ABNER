@@ -1,0 +1,295 @@
+rawsocket.o: rawsocket.c \
+ /home/woof/android-build/sysroot/usr/local/include/stdio.h \
+ /home/woof/android-build/sysroot/usr/include/stdio.h \
+ /home/woof/android-build/sysroot/usr/include/sys/cdefs.h \
+ /home/woof/android-build/sysroot/usr/include/android/api-level.h \
+ /home/woof/android-build/sysroot/usr/include/android/versioning.h \
+ /home/woof/android-build/sysroot/usr/include/sys/types.h \
+ /home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /home/woof/android-build/sysroot/usr/local/include/stdint.h \
+ /home/woof/android-build/sysroot/usr/include/stdint.h \
+ /home/woof/android-build/sysroot/usr/include/bits/wchar_limits.h \
+ /home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h \
+ /home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h \
+ /home/woof/android-build/sysroot/usr/include/limits.h \
+ /home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include/float.h \
+ /home/woof/android-build/sysroot/usr/include/linux/limits.h \
+ /home/woof/android-build/sysroot/usr/include/bits/posix_limits.h \
+ /home/woof/android-build/sysroot/usr/include/linux/types.h \
+ /home/woof/android-build/sysroot/usr/include/asm/types.h \
+ /home/woof/android-build/sysroot/usr/include/asm-generic/int-ll64.h \
+ /home/woof/android-build/sysroot/usr/include/asm/bitsperlong.h \
+ /home/woof/android-build/sysroot/usr/include/asm-generic/bitsperlong.h \
+ /home/woof/android-build/sysroot/usr/include/linux/posix_types.h \
+ /home/woof/android-build/sysroot/usr/include/linux/stddef.h \
+ /home/woof/android-build/sysroot/usr/include/linux/compiler.h \
+ /home/woof/android-build/sysroot/usr/include/asm/posix_types.h \
+ /home/woof/android-build/sysroot/usr/include/asm-generic/posix_types.h \
+ /home/woof/android-build/sysroot/usr/include/bits/pthread_types.h \
+ /home/woof/android-build/sysroot/usr/include/sys/sysmacros.h \
+ /home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h \
+ /home/woof/android-build/sysroot/usr/include/bits/seek_constants.h \
+ /home/woof/android-build/sysroot/usr/include/bits/struct_file.h \
+ /home/woof/android-build/sysroot/usr/local/include/wchar.h \
+ /home/woof/android-build/sysroot/usr/local/include/wctype.h \
+ /home/woof/android-build/sysroot/usr/local/include/xlocale.h \
+ /home/woof/android-build/sysroot/usr/local/include/stdlib.h \
+ /home/woof/android-build/sysroot/usr/include/stdlib.h \
+ /home/woof/android-build/sysroot/usr/include/alloca.h \
+ /home/woof/android-build/sysroot/usr/include/malloc.h \
+ /home/woof/android-build/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+ /home/woof/android-build/sysroot/usr/local/include/string.h \
+ /home/woof/android-build/sysroot/usr/include/string.h \
+ /home/woof/android-build/sysroot/usr/include/bits/strcasecmp.h \
+ /home/woof/android-build/sysroot/usr/local/include/errno.h \
+ /home/woof/android-build/sysroot/usr/include/errno.h \
+ /home/woof/android-build/sysroot/usr/include/linux/errno.h \
+ /home/woof/android-build/sysroot/usr/include/asm/errno.h \
+ /home/woof/android-build/sysroot/usr/include/asm-generic/errno.h \
+ /home/woof/android-build/sysroot/usr/include/asm-generic/errno-base.h \
+ /home/woof/android-build/sysroot/usr/include/android/legacy_errno_inlines.h \
+ /home/woof/android-build/sysroot/usr/include/unistd.h \
+ /home/woof/android-build/sysroot/usr/include/sys/select.h \
+ /home/woof/android-build/sysroot/usr/include/linux/time.h \
+ /home/woof/android-build/sysroot/usr/include/signal.h \
+ /home/woof/android-build/sysroot/usr/include/asm/sigcontext.h \
+ /home/woof/android-build/sysroot/usr/include/bits/timespec.h \
+ /home/woof/android-build/sysroot/usr/include/linux/signal.h \
+ /home/woof/android-build/sysroot/usr/include/asm/signal.h \
+ /home/woof/android-build/sysroot/usr/include/asm-generic/signal-defs.h \
+ /home/woof/android-build/sysroot/usr/include/asm/siginfo.h \
+ /home/woof/android-build/sysroot/usr/include/asm-generic/siginfo.h \
+ /home/woof/android-build/sysroot/usr/include/sys/ucontext.h \
+ /home/woof/android-build/sysroot/usr/include/sys/user.h \
+ /home/woof/android-build/sysroot/usr/include/android/legacy_signal_inlines.h \
+ /home/woof/android-build/sysroot/usr/include/bits/fcntl.h \
+ /home/woof/android-build/sysroot/usr/include/bits/getopt.h \
+ /home/woof/android-build/sysroot/usr/include/bits/ioctl.h \
+ /home/woof/android-build/sysroot/usr/include/bits/lockf.h \
+ /home/woof/android-build/sysroot/usr/include/bits/sysconf.h \
+ /home/woof/android-build/sysroot/usr/include/sys/socket.h \
+ /home/woof/android-build/sysroot/usr/include/linux/socket.h \
+ /home/woof/android-build/sysroot/usr/include/asm/fcntl.h \
+ /home/woof/android-build/sysroot/usr/include/asm-generic/fcntl.h \
+ /home/woof/android-build/sysroot/usr/include/asm/socket.h \
+ /home/woof/android-build/sysroot/usr/include/asm-generic/socket.h \
+ /home/woof/android-build/sysroot/usr/include/asm/sockios.h \
+ /home/woof/android-build/sysroot/usr/include/asm-generic/sockios.h \
+ /home/woof/android-build/sysroot/usr/include/linux/sockios.h \
+ /home/woof/android-build/sysroot/usr/include/linux/uio.h \
+ /home/woof/android-build/sysroot/usr/include/bits/sa_family_t.h \
+ /home/woof/android-build/sysroot/usr/include/netinet/in.h \
+ /home/woof/android-build/sysroot/usr/include/endian.h \
+ /home/woof/android-build/sysroot/usr/include/sys/endian.h \
+ /home/woof/android-build/sysroot/usr/include/netinet/in6.h \
+ /home/woof/android-build/sysroot/usr/include/linux/in6.h \
+ /home/woof/android-build/sysroot/usr/include/linux/libc-compat.h \
+ /home/woof/android-build/sysroot/usr/include/linux/in.h \
+ /home/woof/android-build/sysroot/usr/include/asm/byteorder.h \
+ /home/woof/android-build/sysroot/usr/include/linux/byteorder/little_endian.h \
+ /home/woof/android-build/sysroot/usr/include/linux/swab.h \
+ /home/woof/android-build/sysroot/usr/include/asm/swab.h \
+ /home/woof/android-build/sysroot/usr/include/linux/ipv6.h \
+ /home/woof/android-build/sysroot/usr/include/netinet/ip.h \
+ /home/woof/android-build/sysroot/usr/include/netinet/in_systm.h \
+ /home/woof/android-build/sysroot/usr/include/linux/if_ether.h \
+ /home/woof/android-build/sysroot/usr/local/include/time.h \
+ /home/woof/android-build/sysroot/usr/include/time.h \
+ /home/woof/android-build/sysroot/usr/include/sys/time.h
+
+/home/woof/android-build/sysroot/usr/local/include/stdio.h:
+
+/home/woof/android-build/sysroot/usr/include/stdio.h:
+
+/home/woof/android-build/sysroot/usr/include/sys/cdefs.h:
+
+/home/woof/android-build/sysroot/usr/include/android/api-level.h:
+
+/home/woof/android-build/sysroot/usr/include/android/versioning.h:
+
+/home/woof/android-build/sysroot/usr/include/sys/types.h:
+
+/home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
+
+/home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
+
+/home/woof/android-build/sysroot/usr/local/include/stdint.h:
+
+/home/woof/android-build/sysroot/usr/include/stdint.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/wchar_limits.h:
+
+/home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h:
+
+/home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h:
+
+/home/woof/android-build/sysroot/usr/include/limits.h:
+
+/home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include/float.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/limits.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/posix_limits.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/types.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/types.h:
+
+/home/woof/android-build/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/bitsperlong.h:
+
+/home/woof/android-build/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/posix_types.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/stddef.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/compiler.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/posix_types.h:
+
+/home/woof/android-build/sysroot/usr/include/asm-generic/posix_types.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/pthread_types.h:
+
+/home/woof/android-build/sysroot/usr/include/sys/sysmacros.h:
+
+/home/woof/android-build/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/seek_constants.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/struct_file.h:
+
+/home/woof/android-build/sysroot/usr/local/include/wchar.h:
+
+/home/woof/android-build/sysroot/usr/local/include/wctype.h:
+
+/home/woof/android-build/sysroot/usr/local/include/xlocale.h:
+
+/home/woof/android-build/sysroot/usr/local/include/stdlib.h:
+
+/home/woof/android-build/sysroot/usr/include/stdlib.h:
+
+/home/woof/android-build/sysroot/usr/include/alloca.h:
+
+/home/woof/android-build/sysroot/usr/include/malloc.h:
+
+/home/woof/android-build/sysroot/usr/include/android/legacy_stdlib_inlines.h:
+
+/home/woof/android-build/sysroot/usr/local/include/string.h:
+
+/home/woof/android-build/sysroot/usr/include/string.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/strcasecmp.h:
+
+/home/woof/android-build/sysroot/usr/local/include/errno.h:
+
+/home/woof/android-build/sysroot/usr/include/errno.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/errno.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/errno.h:
+
+/home/woof/android-build/sysroot/usr/include/asm-generic/errno.h:
+
+/home/woof/android-build/sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/woof/android-build/sysroot/usr/include/android/legacy_errno_inlines.h:
+
+/home/woof/android-build/sysroot/usr/include/unistd.h:
+
+/home/woof/android-build/sysroot/usr/include/sys/select.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/time.h:
+
+/home/woof/android-build/sysroot/usr/include/signal.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/sigcontext.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/timespec.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/signal.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/signal.h:
+
+/home/woof/android-build/sysroot/usr/include/asm-generic/signal-defs.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/siginfo.h:
+
+/home/woof/android-build/sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/woof/android-build/sysroot/usr/include/sys/ucontext.h:
+
+/home/woof/android-build/sysroot/usr/include/sys/user.h:
+
+/home/woof/android-build/sysroot/usr/include/android/legacy_signal_inlines.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/fcntl.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/getopt.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/ioctl.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/lockf.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/sysconf.h:
+
+/home/woof/android-build/sysroot/usr/include/sys/socket.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/socket.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/fcntl.h:
+
+/home/woof/android-build/sysroot/usr/include/asm-generic/fcntl.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/socket.h:
+
+/home/woof/android-build/sysroot/usr/include/asm-generic/socket.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/sockios.h:
+
+/home/woof/android-build/sysroot/usr/include/asm-generic/sockios.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/sockios.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/uio.h:
+
+/home/woof/android-build/sysroot/usr/include/bits/sa_family_t.h:
+
+/home/woof/android-build/sysroot/usr/include/netinet/in.h:
+
+/home/woof/android-build/sysroot/usr/include/endian.h:
+
+/home/woof/android-build/sysroot/usr/include/sys/endian.h:
+
+/home/woof/android-build/sysroot/usr/include/netinet/in6.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/in6.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/libc-compat.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/in.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/byteorder.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/byteorder/little_endian.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/swab.h:
+
+/home/woof/android-build/sysroot/usr/include/asm/swab.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/ipv6.h:
+
+/home/woof/android-build/sysroot/usr/include/netinet/ip.h:
+
+/home/woof/android-build/sysroot/usr/include/netinet/in_systm.h:
+
+/home/woof/android-build/sysroot/usr/include/linux/if_ether.h:
+
+/home/woof/android-build/sysroot/usr/local/include/time.h:
+
+/home/woof/android-build/sysroot/usr/include/time.h:
+
+/home/woof/android-build/sysroot/usr/include/sys/time.h:
