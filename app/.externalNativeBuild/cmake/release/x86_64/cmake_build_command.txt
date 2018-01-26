@@ -1,10 +1,10 @@
 Executable : F:\soft\sdk\cmake\3.6.4111459\bin\cmake.exe
 arguments : 
--HF:\workspace\RENES\android-ndk\native-activity\app\src\main\cpp
--BF:\workspace\RENES\android-ndk\native-activity\app\.externalNativeBuild\cmake\release\x86_64
+-HF:\workspace\RENES\implement\app\src\main\cpp
+-BF:\workspace\RENES\implement\app\.externalNativeBuild\cmake\release\x86_64
 -DANDROID_ABI=x86_64
 -DANDROID_PLATFORM=android-21
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=F:\workspace\RENES\android-ndk\native-activity\app\build\intermediates\cmake\release\obj\x86_64
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=F:\workspace\RENES\implement\app\build\intermediates\cmake\release\obj\x86_64
 -DCMAKE_BUILD_TYPE=Release
 -DANDROID_NDK=F:\soft\sdk\ndk-bundle
 -DCMAKE_TOOLCHAIN_FILE=F:\soft\sdk\ndk-bundle\build\cmake\android.toolchain.cmake

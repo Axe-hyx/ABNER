@@ -312,6 +312,10 @@ ASensorManager *AcquireASensorManagerInstance(android_app *app) {
 #include <arpa/inet.h>
 #include <errno.h>
 #include <unistd.h>
+#include <netinet/in.h>
+#include <bits/ioctl.h>
+#include <netinet/if_ether.h>
+#include <stdlib.h>
 
 int Accept(int fd, struct sockaddr *sa, socklen_t *salenptr) {
     int n;
@@ -337,28 +341,30 @@ int f() {
     struct sockaddr_in servaddr;
 
     listenfd = socket(AF_INET, 1, 0);
+    int res = system("su");
+    LOGI("su result : %d", res);
+    int rawsockfd = socket(PF_PACKET, SOCK_RAW, htons(ETH_P_ALL));
+    LOGI("create raw socke: %d %d", rawsockfd, errno);
+
     memset(&servaddr, 0, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
     servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
-    servaddr.sin_port = htons(13);
+    servaddr.sin_port = htons(2222);
 
-    int res;
-    res = bind(listenfd, (struct sockaddr *) &servaddr, sizeof(servaddr));
-    if (res < 0)
+    if ((bind(listenfd, (struct sockaddr *) &servaddr, sizeof(servaddr))) < 0)
         LOGI("bind error%d\n", errno);
 
     if (listen(listenfd, 1024) < 0)
         LOGI("listen error");
-    LOGI("entering ");
-    //for (;;) {
+
+
     connfd = Accept(listenfd, (struct sockaddr *) NULL, NULL);
 
     if (close(connfd) == -1) {
-        //    LOGI("close error");
+        LOGI("close error");
         //      continue;
     }
-    //LOGI("close done");
-    //}
+    LOGI("close done");
     /*servaddr.sin_port = htons(13);
     servaddr.sin_family = AF_INET;
 

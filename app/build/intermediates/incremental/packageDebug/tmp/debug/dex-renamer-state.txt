@@ -1,4 +1,4 @@
-#Thu Jan 25 10:07:06 CST 2018
-base.0=F\:\\workspace\\RENES\\android-ndk\\native-activity\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Fri Jan 26 14:06:23 CST 2018
+base.0=F\:\\workspace\\RENES\\implement\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

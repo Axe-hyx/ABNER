@@ -1,8 +1,0 @@
-# ninja log v5
-7	309	0	build.ninja	a50930789e898a8d
-0	804	0	CMakeFiles/native_app_glue.dir/F_/soft/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o	c9218ad46ce6a5ef
-805	1007	0	libnative_app_glue.a	68c780f816cbe9f7
-1007	2395	0	CMakeFiles/native-activity.dir/main.cpp.o	d9b9441f99717850
-2396	2644	0	F:/workspace/RENES/android-ndk/native-activity/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-activity.so	3bb1b6e001590e60
-6	1832	0	CMakeFiles/native-activity.dir/main.cpp.o	d9b9441f99717850
-1832	2058	0	F:/workspace/RENES/android-ndk/native-activity/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-activity.so	3bb1b6e001590e60
