@@ -1,4 +1,0 @@
-F:/workspace/RENES/android-ndk/native-activity/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/native_app_glue.dir
-F:/workspace/RENES/android-ndk/native-activity/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/native-activity.dir
-F:/workspace/RENES/android-ndk/native-activity/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
-F:/workspace/RENES/android-ndk/native-activity/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir

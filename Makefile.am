@@ -1,0 +1,3 @@
+AUTOMAKE_OPTIONS=foreign
+bin_PROGRAMS=rawsocket
+rawsocket_SOURCES=rawsocket.c
